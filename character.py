@@ -33,5 +33,5 @@ class Character:
     def take_mana(self, mana_points):
         self.mana += mana_points
 
-    def take_damage(self, damage):
-        self.health -= damage
+    def take_damage(self, damage_points):
+        self.health -= damage_points
