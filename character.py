@@ -6,7 +6,7 @@ class Character:
         self.mana = mana
 
     def is_alive(self):
-        if health > 0:
+        if self.health > 0:
             return True
         else:
             return False
