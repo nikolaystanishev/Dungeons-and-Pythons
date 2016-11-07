@@ -1,6 +1,6 @@
 class Character:
 
-    def __init__(health, mana):
+    def __init__(self, health, mana):
         self.health_max = health
         self.health = health
         self.mana = mana
