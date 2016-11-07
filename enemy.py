@@ -1,10 +1,10 @@
 from character import Character
 
 
-class Enemies(Character):
-    def __init__(self, health, mana, demage):
+class Enemy(Character):
+    def __init__(self, health, mana, damage):
         super().__init__(health, mana)
-        self.damege = demage
+        self.damage = damage
 
-    def attack():
-        return self.damege
+    def attack(self):
+        return self.damage
