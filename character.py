@@ -30,8 +30,8 @@ class Character:
         else:
             return False
 
-    def take_mana(mana_points):
+    def take_mana(self, mana_points):
         self.mana += mana_points
 
-    def take_damage(damage):
+    def take_damage(self, damage):
         self.health -= damage
