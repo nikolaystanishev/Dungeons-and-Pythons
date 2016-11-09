@@ -2,7 +2,7 @@ from character import Character
 from weapon import Weapon
 
 
-class Hero(Charcter):
+class Hero(Character):
     def __init__(self, applyname, title, mana_regeneration_rate):
         super().__init__(healt, mana)
         self.applyname = applyname
